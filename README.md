@@ -78,7 +78,8 @@ python Emotion_detector.py
 
 ## 📸 Demo
 
-> ![Image](C:\Users\rgukt\Pictures\Screenshots)
+>![Emotion Detector Demo](images/emotion_demo.png)
+
 
 
 ---
