@@ -1,76 +1,41 @@
-🎭 Emotion Detector using CNN
-This project is an Emotion Detection System using a Convolutional Neural Network (CNN). It takes input from a webcam or video feed, detects faces using Haar Cascades, and classifies emotions using a pre-trained deep learning model.
+# 🎭 Emotion Detector using CNN
 
-🔍 Features
-Detects faces in real-time
+This project is an **Emotion Detection System** using a Convolutional Neural Network (CNN).  
+It takes input from a webcam, detects faces using Haar Cascades, and classifies emotions using a pre-trained deep learning model.
 
-Classifies facial emotions:
+---
 
-Angry 😠
+## 🔍 Features
 
-Disgust 🤢
+- Detects faces in real-time using OpenCV
+- Classifies facial emotions:
+  - 😠 Angry  
+  - 🤢 Disgust  
+  - 😨 Fear  
+  - 😀 Happy  
+  - 😢 Sad  
+  - 😲 Surprise  
+  - 😐 Neutral
+- Real-time video stream from webcam
+- Loads a pre-trained Keras model for accurate predictions
 
-Fear 😨
+---
 
-Happy 😀
+## 🧠 Model Details
 
-Sad 😢
+- **Pre-trained Model:** `_mini_XCEPTION.102-0.66.hdf5`
+- **Framework:** Keras (with TensorFlow backend)
+- **Face Detection:** Haar Cascade Classifier (`haarcascade_frontalface_default.xml`)
 
-Surprise 😲
+---
 
-Neutral 😐
+## 🚀 Getting Started
 
-Uses OpenCV for face detection and real-time video
+### 🔧 Prerequisites
 
-Loads pre-trained Keras model for prediction
+Make sure Python **3.10** is installed.
 
-🧠 Model
-Pre-trained model: _mini_XCEPTION.102-0.66.hdf5
+Install required libraries:
 
-Framework: Keras with TensorFlow backend
-
-Haar Cascade used for face detection
-
-🚀 Getting Started
-🔧 Prerequisites
-Install the required libraries using pip:
-
-bash
-Copy
-Edit
+```bash
 pip install keras tensorflow opencv-python numpy
-Make sure you're using Python 3.10 or later.
-
-📁 Project Structure
-nginx
-Copy
-Edit
-Emotion Detector/
-├── Emotion_detector.py
-├── _mini_XCEPTION.102-0.66.hdf5
-└── haarcascade_frontalface_default.xml
-▶️ How to Run
-Run the following command in your terminal:
-
-bash
-Copy
-Edit
-python Emotion_detector.py
-Make sure your webcam is connected — the program will open a video window and show real-time emotion predictions.
-
-🛠 Tech Stack
-Python 3.10
-
-Keras
-
-TensorFlow
-
-OpenCV
-
-NumPy
-
-📸 Demo
-(Optional: Add screenshots or a demo video link here)
-
-
-
