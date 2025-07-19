@@ -39,3 +39,56 @@ Install required libraries:
 
 ```bash
 pip install keras tensorflow opencv-python numpy
+```
+
+---
+
+## 📁 Project Structure
+
+```
+Emotion Detector/
+├── Emotion_detector.py
+├── _mini_XCEPTION.102-0.66.hdf5
+└── haarcascade_frontalface_default.xml
+```
+
+---
+
+## ▶️ How to Run
+
+Run the following command in the terminal:
+
+```bash
+python Emotion_detector.py
+```
+
+🔌 **Make sure your webcam is connected**. The program will display a window showing real-time emotion predictions.
+
+---
+
+## 🛠 Tech Stack
+
+- Python 3.10  
+- Keras  
+- TensorFlow  
+- OpenCV  
+- NumPy
+
+---
+
+## 📸 Demo
+
+> ![Image](C:\Users\rgukt\Pictures\Screenshots)
+
+
+---
+
+## 👩‍💻 Author
+
+**Vasanthi Mada**  
+B.Tech CSE, Rajiv Gandhi University of Knowledge and Technologies - Ongole  
+[🔗 LinkedIn](https://www.linkedin.com/in/vasanthi-mada/) | [🐙 GitHub](https://github.com/VasanthiMada)
+
+---
+
+
